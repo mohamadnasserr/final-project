@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Manager App</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- <button class="modesbtn" id="modesbtn" onclick="switchMode()"> </button> -->
+</head>
+
+<body>
+
+
+    <button class="modesbtn" id="modesbtn" onclick="switchMode()" title="Switch Modes"> </button>
+
+    <h1>Bookmark Manager App</h1>
+    <div class="intro-star">★</div>
+    <div class="intro-star star2">★</div>
+
+    <br>
+    <div class="addingbookmarkarea" id="addingbookmarkarea">
+        <h3>Enter a new bookmark</h3>
+        <p>Title</p>
+        <input type="text" id="bookmarktitle" class="bookmarktitle">
+        <p>Url</p>
+        <input type="url" id="bookmarkurl" class="bookmarkurl"><br>
+        <button class="addingbtn" id="addingbtn" type="submit">Add Bookmark</button>
+
+    </div>
+
+    <ul id="bookmarkslist">
+
+    </ul>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
